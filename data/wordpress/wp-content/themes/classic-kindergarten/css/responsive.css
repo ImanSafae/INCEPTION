@@ -1,0 +1,68 @@
+@media screen and (min-width: 320px) and (max-width: 720px){
+  .text-content p{
+    display: none;
+  }
+  #slider-cat{
+    background-size: 100% 100% !important;
+  }
+  .imagebox{
+    margin-top: 2em;
+  }
+  .page-template-template-home-page .header{
+    background-color: #fff2ce !important;
+  }
+  .logo h1 span, .logo a, .site-branding-text span, .logo h1 a, .site-branding-text span, .toggle-nav button{
+    color: #00240b !important;
+  }
+  .page-template-template-home-page .toggle-nav button, .toggle-nav button{
+    border:solid 2px #00240b !important;
+    color: #00240b !important;
+  }
+  .inner-header span{
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 520px) and (max-width: 999px){
+  #slider-cat .text-content p{
+    display: none;
+  }
+  #slider-cat .text-content{
+    top: 12em !important;
+  }
+  body.admin-bar #mySidenav{
+    margin-top: 40px;
+  }
+  #slider-cat .owl-carousel{
+    position: static;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px){
+  .header{
+    background-color: #fff2ce !important;
+  }
+  .logo h1 a, .site-branding-text span, .page-template-template-home-page .logo h1 a, .site-branding-text span, .page-template-template-home-page .toggle-nav button{
+    color: #00240b;
+  }
+  .page-template-template-home-page .toggle-nav button, .toggle-nav button{
+    border:solid 2px #00240b !important;
+    color: #00240b !important;
+  }
+  .page-template-template-home-page .header {
+    background: transparent !important;
+  }
+  .page4box .pagemore:hover{
+    color: #000;
+  }
+}
+@media screen and (max-width: 1000px){
+  .toggle-nav button{
+    border:solid 2px #00240b !important;
+    color: #00240b !important;
+  }
+  .main-nav .current-menu-item a, .main-nav ul li a, .main-nav a, .sidenav .close-button{
+    color: #fff !important;
+  }
+  .page-template-template-home-page .main-nav a, .page-template-template-home-page .logo a, .page-template-template-home-page .logo h1 a, .site-branding-text span{
+    color: #000 !important;
+  }
+}

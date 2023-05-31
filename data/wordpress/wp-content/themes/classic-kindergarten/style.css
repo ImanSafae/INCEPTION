@@ -1,0 +1,125 @@
+/*
+Theme Name: Classic Kindergarten
+Theme URI: https://www.theclassictemplates.com/themes/free-kindergarten-wordpress-theme/
+Author: classictemplate
+Author URI: https://www.theclassictemplates.com/
+Description: The Kindergarten WordPress theme is designed especially for pre-schools, nurseries, playschools, daycare centres, babysitting, and other such children-related websites. The theme has a colourful design that attracts kids and children. This theme features an elegant and sophisticated design that can be used for multiple purposes. It can be used to create a children-related blog, a school or daycare website, etc. The theme’s unique feature is its minimal design which directs the audience’s attention toward the main content. The theme is retina-ready and responsive. This ensures that your website looks great on all sorts of devices. Furthermore, the user-friendly interface makes it easy for all users to navigate through your website easily. The theme is also cross-browser-compatible and SEO-friendly. These features help your website reach a larger crowd and allow for better search engine rankings. The CTA (Call to action) buttons are included in the theme to improve the website’s conversion rates. Additionally, the Kindergarten WordPress Theme comes with WooCommerce which lets you turn your website into an online store. This feature is quite useful in case you want to sell kids-related products on your website. The Bootstrap framework included in this theme helps with easy customization. The CSS animations help in enhancing the website’s appearance. Using CSS animations you can add kids-related animations to your website to make it appealing and attractive to kids. 
+Template: kindergarten-school
+Version: 1.1
+Tested up to: 6.2
+Requires PHP: 7.2
+Requires at least: 5.0
+License: GNU General Public License
+License URI: http://www.gnu.org/licenses/gpl.html
+Text Domain: classic-kindergarten
+Tags: blog, e-commerce, portfolio, one-column, two-columns, left-sidebar, right-sidebar, custom-logo, full-width-template, footer-widgets, featured-images, custom-colors, editor-style, wide-blocks, block-styles, custom-header, custom-background, custom-menu, sticky-post, threaded-comments, theme-options, rtl-language-support
+
+Classic Kindergarten WordPress Theme has been created by classictemplate (theclassictemplates.com), 2023.
+Classic Kindergarten WordPress Theme is released under the terms of GNU GPL
+
+Classic Kindergarten WordPress Theme is child theme of Kindergarten School WordPress Theme, Copyright 2023 classictemplate (theclassictemplates.com)
+Kindergarten School WordPress Theme is distributed under the terms of the GNU GPL
+*/
+
+.site-branding-text span{
+  font-family: 'Pacifico', cursive;
+  font-size: 14px;
+}
+.header{
+  border: none;
+}
+#mySidenav{
+  display: inline-block !important;
+  width: 75%;
+}
+#slider-cat {
+  background-image: url(images/slider1.png);
+  background-size: 100% 100%;
+  height: 670px;
+}
+.col-box-6 {
+    text-align: left;
+}
+.top-header span, .top-header span i, .social-media-box a{
+	color:#000;
+	font-weight: 500;
+}
+.main-nav a{
+	font-size: 15px;
+}
+.main-nav .current-menu-item a{
+	color: 00240b;
+}
+#ourservices h3{
+	font-size: 28px;
+}
+.pagecontent.even-box{
+	background-color: #95c800;
+}
+.pagecontent.odd-box{
+	background-color: #f05a21;
+}
+.page4box .thumbbx{
+	border: 4px solid #ffbd0a;
+	z-index: 99;
+  position: relative;
+}
+.pagecontent{
+	border-radius: 15px;
+}
+.page4box h4 a, .page4box p, .page4box .pagemore{
+	color: #fff;
+}
+.page4box .pagemore:hover{
+	color: #000;
+}
+.header, .top-header{
+  background-color: #fff2ce;
+}
+.main-nav a{
+  color: #fff;
+}
+.main-nav .current-menu-item a{
+  color: #00240b;
+}
+.logo h1 span, .logo a, .site-branding-text span{
+  color: #00240b;
+}
+.page-template-template-home-page .logo h1 span, .page-template-template-home-page .logo a, .page-template-template-home-page .site-branding-text span{
+  color: #fff;
+}
+.pagecontent:hover .pagemore{
+  color: #00240b;
+}
+.page-template-template-home-page .header.sticky-head,.sticky-head {
+  background: #fff2ce !important;
+}
+.page-template-template-home-page .header.sticky-head, .sticky-head{
+  position: static !important;
+  box-shadow: none;
+  padding: 0;
+}
+.page-template-template-home-page .main-nav a, .page-template-template-home-page .logo a{
+  color: #fff !important;
+}
+.main-nav a, .logo a, .main-nav .current-menu-item a{
+  color: #000 !important;
+}
+.main-nav .sub-menu a{
+  color: #fff !important;
+}
+#button{
+  background-color: #95c800;
+}
+#footer a, #footer .ftr-4-box ul li, .ftr-4-box p{
+  color: #fff;
+}
+.imagebox img {
+  position: relative;
+  right: 0;
+  width: 100%;
+  -webkit-mask-image: url(images/slider-img.png);
+  -webkit-mask-position: bottom right;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+}

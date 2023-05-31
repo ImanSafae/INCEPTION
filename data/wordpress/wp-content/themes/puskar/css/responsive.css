@@ -1,0 +1,344 @@
+@charset "utf-8";
+
+
+/* Layout: Large Devices. */
+
+
+@media only screen and (max-width: 1199px) {
+	.navbar a{
+		font-size: 12px;
+	}
+	.navbar a, .navbar li {
+	    font-size: 12px;
+	}
+
+	.navbar a i{
+		font-size: 14px;
+	}
+
+	.ts-footer .footer-top .mc4wp-form .mc4wp-form-fields input[type="email"] {
+	    font-size: 11px;
+	}
+	.menu-area .navbar ul li .children,
+	.menu-area .navbar ul li .sub-menu{
+		right: 8px;
+		left: auto;
+	}
+}
+
+/* Layout: Min 992px Max 1199px. */
+
+@media only screen and (min-width: 992px){
+	#ts-header .main-menu-close, 
+
+	#ts-header #primary-menu li .sub-menu li a.sub-toggle, 
+	#ts-header #primary-menu li .children li a.sub-toggle {
+	    display: none;
+	}
+	.menu-area .navbar ul li > a{
+		line-height: 100px;
+	}
+	#ts-header #primary-menu li a.sub-toggle {
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	}
+}
+/* Layout: Min 992px to Higher. */
+
+@media only screen and (min-width: 991px) {
+	.menu-area .navbar ul ul ul.children,
+	.menu-area .navbar ul ul ul.sub-menu{
+		right: 100% !important;
+		margin-top: -1px;
+		left: auto !important;
+	}
+}
+
+/* Medium Layout: 991px. */
+
+@media only screen and (max-width: 991px) {
+	.mobile-menu-link{
+		display: block;
+	}
+	#ts-header .logo-area{
+		display: block;
+		float: left;
+		text-align: center;
+		margin: auto;
+		float: none;
+	}
+	#ts-header .menu-area .navbar{
+		float: none;
+		display: block;
+	}
+	#ts-header .navbar-menu{
+	    position: fixed;
+	    top: 0;
+	    right: -200px;
+	    width: 300px;
+	    opacity: 0;
+	    visibility: hidden;
+	    box-shadow: 0 3px 12px rgb(0 0 0 / 10%);
+	    height: 100%;
+	    z-index: 9999;
+	    padding: 100px  30px 70px 30px;
+	    transition: 0.5s;
+	    height: 100%;
+	    overflow: scroll;
+	}
+
+	#ts-header .navbar-menu.menu-active {
+	    right: 0;
+	    opacity: 1;
+	    visibility: visible;
+	}
+	.main-menu-close {
+	    display: block;
+	    font-size: 28px;
+	    position: absolute;
+	    top: 10px;
+	    right: 20px;
+	    cursor: pointer;
+	}
+	.admin-bar .main-menu-close{
+		top: 50px;
+	}
+	#ts-header #primary-menu li .sub-toggle {
+		position: absolute;
+		right: 0;
+		top: 15px;
+		padding: 0!important;
+		width: 25px;
+		height: 25px;
+		text-align: center;
+		line-height: 25px;
+	}
+	#ts-header .navbar-menu.menu-active #primary-menu li a {
+	    padding: 0;
+	    display: block;
+	    font-weight: 400;
+	}
+	#ts-header #primary-menu li .sub-menu, 
+	#ts-header #primary-menu li .children {
+	    box-shadow: none;
+	    position: static;
+	    transition: none;
+	    min-width: auto;
+	    width: 100%;
+	    float: none;
+	    border: 0;
+	    opacity: 1;
+	    visibility: visible;
+	    -webkit-transform: translateY(0);
+	    -ms-transform: translateY(0);
+	    -o-transform: translateY(0);
+	    transform: translateY(0);
+	    padding-left: 15px;
+	}
+
+
+	.sec-spacer {
+	    padding: 80px 0;
+	}
+	.sec-spacer2 {
+	    padding: 80px 0 50px;
+	}
+	.sec-spacer3 {
+	    padding-top: 72px;
+	    padding-bottom: 80px;
+	}
+	
+	.pb-100{
+		padding-bottom: 80px !important;
+	}
+	.mb-70{
+		margin-bottom: 50px;
+	}
+	
+	.ts-footer .footer-top {
+	    padding-bottom: 80px;
+	}
+
+	.floating-icons{
+		display: none;
+	}
+	.width50 {
+		width: 100%;
+	}
+	
+	.menu-area .navbar ul li{
+	    display: block;
+	    text-align: left;
+	    padding: 0;
+	}
+
+	#ts-header .navbar-menu.menu-active  a{
+		line-height: 40px;
+	}
+	.menu-area .navbar ul li ul.children,
+	.menu-area .navbar ul li ul.sub-menu {
+		min-width: 100%;
+		display: none;
+	}
+	.navbar-menu #primary-menu-single{
+		display: none;
+	}
+
+	.ts-blog .blog-item .blog-meta .blog-date {
+	    font-size: 12px;
+	}
+	span.author {
+    	margin-left: 6px;
+	}
+	.ts-blog .blog-item .blog-meta .blog-lc > div:first-child {
+    	margin-right: 0;
+    	font-size: 10px;
+	}
+	
+	aside.widget-area {
+		margin-top: 50px;
+	}
+	.pagination {
+		margin: 0;
+	}
+
+	.mmt-40{
+		margin-top: 40px;
+	}
+	.floating-bar.Left{
+		display: none;
+	}
+	.float-icon.icon-Left{
+		display: none;
+	}
+	.service-square-effect .services-desc:after{
+		left: 50%;
+	}
+	.menu-area .navbar{
+		display: block;
+	}
+	.footer-top .row [class*="footer-col-"]{
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.footer-bottom .row{
+		flex-wrap: wrap-reverse;
+	}
+	.widget ul li:last-child{
+		padding-bottom: 0;
+	}
+	article.one-column.has-post-thumbnail .left-image{
+		display: block;
+	}
+	article.one-column.has-post-thumbnail .left-image .blog-img{
+		max-width: 100%;
+	    margin-bottom: 20px;
+	    margin-right: 0;
+	}
+	article.one-column{
+		padding: 0;
+	}
+}
+
+
+
+/* Mobile Layout: 767px. */
+
+@media only screen and (max-width: 767px) {
+	
+	.ts-breadcrumbs .page-title{
+		float: none;
+	}
+	
+	.ts-breadcrumbs .breadcrumbs {
+	    float: none;
+	    text-align: center;
+	}
+	.ts-breadcrumbs nav ul li {
+	    float: none; 
+	    display: inline-block;
+	}
+	.ts-breadcrumbs nav ul li + li {
+	    margin-left: 4px;
+	}
+	
+	
+	h1 {
+	    font-size: 48px;
+	    line-height: 58px;
+	}
+	
+	.ts-breadcrumbs .breadcrumbs-inner {
+		display: block;
+		text-align: center;
+		padding-top: 10px;
+	}
+	.ts-breadcrumbs .breadcrumbs-inner nav ul {
+		display: inline-block;
+	}
+	.ts-breadcrumbs .breadcrumbs-inner nav ul:after {
+		display: block;
+		clear: both;
+		content: "";
+	}
+	
+	.contact-form {
+    	padding: 0 15px 0 15px;
+	}
+	#contact-address #contact-form-title h3 {
+	    padding: 70px 0 24px 0;
+	    text-align: center;
+	}
+	.comments-area .comment-list li.comment {
+		padding: 10px;
+		border: none;
+		box-shadow: none;
+	}
+	.comments-area .comment-list li.comment .comment-content p {
+		margin-bottom: 8px;
+	}
+	.comments-area .comment-list li.comment .comment-content p {
+		margin-bottom: 8px;
+	}
+	.comments-area .comment-list li.comment .comment-content {
+		margin-top: 15px;
+	}
+	
+	.ts-cta .cta-inner h3 {
+	    font-size: 24px;
+	    margin-bottom: 5px;
+	}
+	
+    .ts-breadcrumbs .page-title {
+	    font-size: 26px;
+	    line-height: 40px;
+	}
+}
+
+
+
+/* Device Size : 590px. */
+
+@media only screen and (max-width: 590px) {
+	article.masonry-post {
+	    -ms-flex: 0 0 100%;
+	    flex: 0 0 100%;
+	    max-width: 100%
+	}
+}
+
+
+
+/* Small Device : 480px. */
+
+@media only screen and (max-width: 480px) {
+	#scrollUp {
+	    right: 14px;
+	}
+	.ts-blog-sec .blog-item .blog-meta .blog-title {
+	    line-height: 28px;
+	}
+
+}
